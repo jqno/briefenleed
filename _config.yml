@@ -31,6 +31,7 @@ defaults:
       path: ""
       type: posts
     values:
+      permalink: /:year/:month/:title
       header:
         image: images/banner.jpg
       layout: single
