@@ -40,6 +40,19 @@ defaults:
       comments: true
       share: true
       related: true
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      header:
+        image: banner.jpg
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
 
 # Build settings
 remote_theme: mmistakes/minimal-mistakes@4.20.2
