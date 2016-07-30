@@ -29,26 +29,22 @@ baseurl: "/briefenleed"
 defaults:
   - scope:
       path: ""
-      type: posts
     values:
-      permalink: /:year/:month/:title
       header:
         image: images/banner.jpg
       layout: single
       author_profile: true
+  - scope:
+      type: posts
+    values:
+      permalink: /:year/:month/:title
       read_time: true
       comments: true
       share: true
       related: true
-defaults:
   - scope:
-      path: ""
       type: pages
     values:
-      header:
-        image: banner.jpg
-      layout: single
-      author_profile: true
       read_time: false
       comments: false
       share: false
