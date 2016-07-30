@@ -1,0 +1,29 @@
+# main header links
+main:
+  - title: "De auteurs"
+    url: /de-auteurs
+
+# side bar links
+side:
+  - title: "Recent"
+    children:
+      - title: "Aan Jan Ouwens"
+        url: /2012/04/aan-jan-ouwens
+      - title: "Aan de Dienst Uitvoering Onderwijs"
+        url: /2012/02/aan-de-dienst-uitvoering-onderwijs
+      - title: "In Eppo Stripblad"
+        url: /2011/12/in-eppo-stripblad
+      - title: "Aan Eppo Stripblad"
+        url: /2011/11/aan-eppo-stripblad
+      - title: "Aan Kraft Foods Nederland BV"
+        url: /2011/10/aan-kraft-foods-nederland-bv
+  - title: "Favoriet"
+    children:
+      - title: "Aan verschillende Amsterdamse seksclubs"
+        url: /2009/09/aan-verschillende-amsterdamse-seksclubs
+      - title: "Aan de gemeente Delft, afdeling Handhaving en Toezicht"
+        url: /2009/07/aan-de-gemeente-delft-afdeling-handhaving-en-toezicht
+      - title: "Aan C&A"
+        url: /2009/09/aan-ca
+      - title: "Aan Albert Heijn"
+        url: /2010/08/aan-albert-heijn
