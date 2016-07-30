@@ -18,6 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+locale: "nl"
 title: "Brief en Leed"
 name: "Brief en Leed"
 description: "Echte brieven aan echte mensen"
