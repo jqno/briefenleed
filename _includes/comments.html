@@ -1,0 +1,29 @@
+<div class="page__comments">
+  <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label }}</h4>
+  <section id="comments">
+    <div class="page__meta">
+      {% if page.comments.size == 0 %}
+        Geen opmerkingen
+      {% else %}
+        {% for cmt in page.comments %}
+          <div>
+            <strong>
+              {% if cmt.author_url and cmt.author_url != '' %}
+                <a href="{{ cmt.author_url }}">{{ cmt.author }}</a>
+              {% else %}
+                {{ cmt.author }}
+              {% endif %}
+            </strong>
+          </div>
+          <div class="page__meta-title">
+            {{ cmt.date | date: "%-d-%-m-%Y" }}
+          </div>
+          <div>
+            {{ cmt.content }}
+            <br>&nbsp;
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </section>
+</div>

@@ -52,6 +52,9 @@ defaults:
     values:
       comments: false
 
+comments:
+  provider: custom
+
 # Build settings
 remote_theme: mmistakes/minimal-mistakes@4.20.2
 plugins:
