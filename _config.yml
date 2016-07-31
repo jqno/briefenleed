@@ -39,21 +39,18 @@ defaults:
       author_profile: true
       sidebar:
         nav: "side"
+      read_time: false
+      share: false
+      related: false
   - scope:
       type: posts
     values:
       permalink: /:year/:month/:title
-      read_time: true
       comments: true
-      share: true
-      related: true
   - scope:
       type: pages
     values:
-      read_time: false
       comments: false
-      share: false
-      related: false
 
 # Build settings
 remote_theme: mmistakes/minimal-mistakes@4.20.2
