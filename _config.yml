@@ -58,7 +58,7 @@ comments:
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "custom"
+  provider               : google-universal # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-9733313-1"
 
