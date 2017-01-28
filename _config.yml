@@ -30,6 +30,11 @@ author:
   bio: "Jan Ouwens en Ralf Pisters verbeteren elk weekeinde de wereld met hun brieven. Hier leest u het resultaat: soms ontroerend, vaak grappig, altijd relevant.<br><br>De brieven zijn echt verstuurd."
   facebook: Brief-en-leed-140672505967026
 
+footer:
+  links:
+    - label: "Privacy policy"
+      url: "/briefenleed/privacy"
+
 defaults:
   - scope:
       path: ""
