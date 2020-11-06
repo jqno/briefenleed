@@ -24,6 +24,7 @@ name: "Brief en Leed"
 description: "Echte brieven aan echte mensen"
 baseurl: "/briefenleed"
 imageurl: "/briefenleed/assets/images"
+search: true
 
 author:
   name: "Over Brief en leed"
