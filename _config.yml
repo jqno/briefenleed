@@ -47,6 +47,7 @@ defaults:
       sidebar:
         nav: "side"
       read_time: false
+      show_date: true
       share: false
       related: false
   - scope:
