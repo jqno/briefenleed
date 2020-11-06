@@ -61,6 +61,10 @@ defaults:
 comments:
   provider: custom
 
+category_archive:
+  type: liquid
+  path: /categorieen/
+
 # Analytics
 analytics:
   provider               : # false (default), "google", "google-universal", "custom"
