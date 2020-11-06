@@ -1,7 +1,5 @@
 # main header links
 main:
-  - title: "Archief"
-    url: /archief
   - title: "De auteurs"
     url: /de-auteurs
 
