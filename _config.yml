@@ -45,7 +45,7 @@ defaults:
   - scope:
       type: posts
     values:
-      permalink: /:year/:month/:title
+      permalink: /:year/:month/:title/
       comments: true
   - scope:
       type: pages
