@@ -1,7 +1,13 @@
 # main header links
 main:
-  - title: "De auteurs"
-    url: /de-auteurs
+  - title: "/"
+    url: http://jqno.nl
+  - title: "Blog"
+    url: http://jqno.nl/blog
+  - title: "Talks"
+    url: http://jqno.nl/talks
+  - title: "EqualsVerifier"
+    url: http://jqno.nl/equalsverifier
 
 # side bar links
 side:
