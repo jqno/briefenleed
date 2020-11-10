@@ -11,18 +11,12 @@ main:
 
 # side bar links
 side:
-  - title: "Recent"
+  - title: "Auteurs"
     children:
-      - title: "Aan Jan Ouwens"
-        url: /2012/04/aan-jan-ouwens
-      - title: "Aan de Dienst Uitvoering Onderwijs"
-        url: /2012/02/aan-de-dienst-uitvoering-onderwijs
-      - title: "In Eppo Stripblad"
-        url: /2011/12/in-eppo-stripblad
-      - title: "Aan Eppo Stripblad"
-        url: /2011/10/aan-eppo-stripblad
-      - title: "Aan Kraft Foods Nederland BV"
-        url: /2011/10/aan-kraft-foods-nederland-bv-2
+      - title: "Alle brieven van Jan"
+        url: /categorieen/#jan
+      - title: "Alle brieven van Ralf"
+        url: /categorieen/#ralf
   - title: "Favoriet"
     children:
       - title: "Aan verschillende Amsterdamse seksclubs"
