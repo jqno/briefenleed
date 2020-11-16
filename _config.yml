@@ -36,7 +36,7 @@ author:
 footer:
   links:
     - label: "Privacy policy"
-      url: "/briefenleed/privacy"
+      url: "https://jqno.nl/privacy"
 
 defaults:
   - scope:
