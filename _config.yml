@@ -33,6 +33,9 @@ author:
   facebook: Brief-en-leed-140672505967026
   uri_author: "/briefenleed/de-auteurs"
 
+twitter:
+  username: jqno
+
 footer:
   links:
     - label: "Privacy policy"
@@ -44,6 +47,7 @@ defaults:
     values:
       header:
         image: images/banner.jpg
+        og_image: images/banner-narrow.jpg
       layout: single
       author_profile: true
       sidebar:
