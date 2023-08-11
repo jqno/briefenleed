@@ -1,0 +1,38 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+@font-face {
+  font-family: 'TilburgsAns';
+  src: url('{{ site.url }}/assets/tilburgsans/TilburgsAns-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TilburgsAns';
+  src: url('{{ site.url }}/assets/tilburgsans/TilburgsAns-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'TilburgsAns', $sans-serif;
+  font-weight: normal;
+  font-size: 2em;
+}
+
+h2, h2.archive__item-title {
+  font-family: 'TilburgsAns', $sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.sidebar h3.author__name {
+  font-family: 'TilburgsAns', $sans-serif;
+}
