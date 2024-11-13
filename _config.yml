@@ -45,6 +45,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/jqno"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/jqno.bsky.social"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: "https://mastodon.online/@jqno"
@@ -89,7 +92,7 @@ analytics:
   provider               : # false (default), "google", "google-universal", "custom"
 
 # Build settings
-remote_theme: mmistakes/minimal-mistakes@4.20.2
+remote_theme: mmistakes/minimal-mistakes@4.26.2
 plugins:
   - jekyll-feed
   - jekyll-include-cache
